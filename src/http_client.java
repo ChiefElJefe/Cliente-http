@@ -32,7 +32,6 @@ public class http_client {
                 loop = false;
             }
         }
-
         System.out.println(sb.toString());
         socket.close();
     }
